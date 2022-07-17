@@ -1,0 +1,33 @@
+.tabuleiro{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #555;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 30px rgba(0,0,0,.5);
+}
+
+.preta {
+  background-color: black;
+  z-index: 1;
+}
+
+.branca {
+  background-color: white;
+  z-index: 1;
+}
+
+.quadrado {
+  width: 70px;
+  height: 70px;
+}
+
+.invert{
+    flex-direction: row-reverse;
+}
