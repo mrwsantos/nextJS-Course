@@ -1,0 +1,68 @@
+.area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: var(--area-porta-largura);
+  height: var(--area-porta-altura);
+}
+
+.estrutura {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+  border-left: 10px solid #423838;
+  border-right: 10px solid #423838;
+  border-top: 10px solid #423838;
+  border-top-left-radius: var(--area-porta-largura);
+  border-top-right-radius: var(--area-porta-largura);
+  overflow: hidden;
+  background-color: burlywood;
+}
+
+.porta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding: 15px;
+  background: url(./../assets/madeira.jpg);
+  background-position: center;
+  background-size: cover;
+
+  position: relative;
+}
+
+.numero {
+  font-size: 2rem;
+  color: gold;
+}
+
+.macaneta {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: gold;
+
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+
+.chao {
+  height: 10px;
+  width: 110%;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+
+.selecionada{
+  border-left: 10px solid lime;
+  border-right: 10px solid lime;
+  border-top: 10px solid lime;
+}
+
+.selecionada .numero{
+  color: lime;
+}
