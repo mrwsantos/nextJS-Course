@@ -4,7 +4,7 @@ import QuestaoModel from "../model/questao";
 import styles from "../styles/Home.module.css";
 import Router, { useRouter } from "next/router";
 
-const BASE_URL = "http://localhost:3000/api";
+const BASE_URL = "/api";
 
 export default function Home() {
   const [idsDasQuestoes, setIdsDasQuestoes] = React.useState<number[]>([]);
