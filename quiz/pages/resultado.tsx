@@ -4,7 +4,7 @@ import styles from "./resultado.module.css";
 import Estatistica from "../components/Estatistica";
 import Botao from "../components/Botao";
 
-const resultado = () => {
+const Resultado = () => {
   const router = useRouter();
 
   const total = +router.query.total;
@@ -24,4 +24,4 @@ const resultado = () => {
   );
 };
 
-export default resultado;
+export default Resultado;
