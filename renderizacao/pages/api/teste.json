@@ -1,0 +1,30 @@
+// 20220907214029
+// http://localhost:3000/api/produtos
+
+[
+    {
+      "id": 72778,
+      "nome": "Caneta",
+      "preco": 5.6
+    },
+    {
+      "id": 4132,
+      "nome": "Caderno",
+      "preco": 15.9
+    },
+    {
+      "id": 95151,
+      "nome": "Lapis",
+      "preco": 1.2
+    },
+    {
+      "id": 73104,
+      "nome": "Mapa",
+      "preco": 4.4
+    },
+    {
+      "id": 39180,
+      "nome": "Tesoura",
+      "preco": 3.75
+    }
+  ]
