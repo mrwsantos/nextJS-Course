@@ -5,7 +5,7 @@ import styles from "./../jogo.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const jogo = () => {
+const Jogo = () => {
   const router = useRouter();
   const [portas, setPortas] = React.useState(criarPortas(10, 2));
 
@@ -44,4 +44,4 @@ const jogo = () => {
   );
 };
 
-export default jogo;
+export default Jogo;
