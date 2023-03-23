@@ -1,7 +1,5 @@
 import React from "react";
 import Cartao from "../components/Cartao";
-import Porta from "../components/Porta";
-import { atualizarPortas, criarPortas } from "../functions/portas";
 import styles from "./formulario.module.css";
 import Link from "next/link";
 import EntradaNumerica from "../components/EntradaNumerica";
